@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@clerk/express": "^1.7.35",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.3",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1"
+  },
+  "name": "backend-remodel-linkup",
+  "version": "1.0.0",
+  "description": "This is the backend for linkup remodel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
