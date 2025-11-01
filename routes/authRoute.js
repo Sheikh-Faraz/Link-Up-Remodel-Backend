@@ -1,6 +1,6 @@
 const express = require ('express');
 // const { signup, login, googleLogin, checkAuth } = require ('.controllers/authController.js');
-const { signup, login, googleLogin, checkAuth, logout } = require ('../controllers/authcontroller.js');
+const { signup, login, googleLogin, checkAuth, logout } = require ('../controllers/authController.js');
 // const { authMiddleware } = require ('.middleware/authMiddleware.js');
 const { authMiddleware } = require ('../middleware/authMiddleware.js');
 
