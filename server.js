@@ -9,10 +9,11 @@ const { app, server } = require ("./lib/socket.js");
 dotenv.config();
 
 // const app = express();
+// origin: 'http://localhost:3000',
 const PORT = process.env.PORT || 5001;
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://link-up-chatapp.vercel.app',
   credentials: true,
 }));
 
